@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 logs/*.log
 venv/logs/*
+
+logs/*
+!logs/.gitkeep
+config/airflow.cfg

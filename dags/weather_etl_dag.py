@@ -3,7 +3,7 @@ from airflow.sdk import dag, task
 
 from weather_etl_lib.extract import fetch_all_cities
 from weather_etl_lib.transform import transform_weather
-from weather_etl_lib.load import load_weather
+from weather_etl_lib.load_snowflake import load_weather
 
 
 @dag(
