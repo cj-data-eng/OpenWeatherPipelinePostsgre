@@ -1,9 +1,10 @@
 .env
 __pycache__/
 *.pyc
-logs/*.log
-venv/logs/*
-
+venv/
 logs/*
 !logs/.gitkeep
 config/airflow.cfg
+*.p8
+*.pem
+config/rsa_key*
